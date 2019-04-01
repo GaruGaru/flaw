@@ -2,10 +2,21 @@
 
 ## Inject failures on api calls for local chaos engineering
 
+
+[![Go Report Card](https://goreportcard.com/badge/github.com/GaruGaru/flaw)](https://goreportcard.com/report/github.com/GaruGaru/flaw)
+![license](https://img.shields.io/github/license/GaruGaru/flaw.svg)
+ 
+ 
+Flaw works as a proxy trought an external http service injecting failures 
+randomly 
+
+<img src="https://github.com/garugaru/flaw/raw/master/res/example-00.png" width="1000">
+
+
 ### Proxy 
 
 ```bash
-flaw https://jsonplaceholder.typicode.com/users
+flaw --host=https://jsonplaceholder.typicode.com/users
 ```
 
 ### Proxy injecting 50% of http (status 500) failures 
