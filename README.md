@@ -3,6 +3,7 @@
 ## Inject failures on api calls for local chaos engineering
 
 
+[![Build Status](https://travis-ci.org/GaruGaru/flaw.svg?branch=master)](https://travis-ci.org/GaruGaru/flaw)
 [![Go Report Card](https://goreportcard.com/badge/github.com/GaruGaru/flaw)](https://goreportcard.com/report/github.com/GaruGaru/flaw)
 ![license](https://img.shields.io/github/license/GaruGaru/flaw.svg)
  
